@@ -1,12 +1,12 @@
 const colors = require("tailwindcss/colors");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: {
-    // enabled: true,
+  // purge: {
+  //   // enabled: true,
     content: ["./**/*.html", "./**/*.js"],
-  },
-  presets: [],
-  darkMode: false, // or 'media' or 'class'
+  // },
+  // presets: [],
+  // darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
       sm: "640px",
